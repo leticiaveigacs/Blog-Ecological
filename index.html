@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> EcoComunitário</title>
+
+        <!-- FONT AWESOME -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+
+        <!-- FANCYBOX -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+
+            <!-- SLIDER -SLIDER -->
+
+            <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+ 
+            <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" 
+                  rel="stylesheet"/>
+
+                  <script>
+                    document.addEventListener( 'DOMContentLoaded', function() {
+                      var splide = new Splide( '.splide', {
+                        type:"loop", 
+                        autoplay:"play", 
+                        interval:5000,
+                      }
+                    
+                    );
+                      splide.mount();
+                    } );
+                  </script>
+
+
+        <!-- CSS ESPECIFICO DO SITE -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+           <!--  <div id="logo">
+                <img src="img/logo.png" alt="" />
+            </div> -->
+            <div id="banner">
+                <h4> EcoComunitário</h4>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#sobrenos">Sobre nós</a></li>
+                <li><a href="#valores">Valores</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <section
+            id="slider"
+            class="splide" 
+            aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide" 
+                           style="background-image: url('img/IMG/nova3.jpg')">     
+                                <h4>SUSTENTABILIDA E NATUREZA </h4> 
+                                <!-- <img src="img/slide1.jpg" alt="" /> -->
+                        </li>
+                          <li class="splide__slide"
+                          style="background-image: url('img/IMG/nova.jpg')">     
+                                <h4>MEIO AMBIENTE</h4>  
+                           <!--     <img src="img/slide2.jpg" alt="" /> -->
+                        </li>
+                          <li class="splide__slide" style="background-image: url('img/IMG/nova2.jpg')">     
+                               <h4>SOLIDARIEDADE</h4>  
+                               <!-- <img src="img/slide3.jpg" alt="" /> -->
+                        </li>
+                      </ul>
+                </div>
+              </section>
+
+          <!--   <section id="slider">
+                <img src="img/slide1.jpg" alt="" />
+            </section> -->
+
+            <section id="sobrenos">
+                <h2>Sobre Nós</h2>
+                <div class="conteudo">
+                    <div class="imagem">
+                        <img src="img/IMG/nova4.jpg" alt="" />
+                    </div>
+                    <div class="texto">
+                      <p>  Bem-vindo ao  EcoComunitário, seu portal para a beleza e a diversidade da natureza!</p>
+
+                      <p>    Somos apaixonados pelo mundo natural e dedicados a compartilhar essa paixão com você. Nosso objetivo é inspirar uma conexão mais profunda com o meio ambiente, promovendo a conscientização, a educação e a preservação do nosso planeta.</p>
+
+                        <p>   Desde 2020, temos trabalhado para trazer o melhor conteúdo sobre a fauna, flora e os incríveis ecossistemas que compõem a Terra. Acreditamos que conhecer é o primeiro passo para cuidar, e por isso, nos esforçamos para oferecer informações detalhadas, atualizadas e acessíveis para todos que, como nós, amam a natureza.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="valores">
+                <h2>Valores</h2>
+                <div class="conteudo">
+                    <div class="imagem">
+                        <img src="img/IMG/nova4 (2).jpg" alt="" />
+                    </div>
+                    <div class="texto">
+                       
+                        Nossos Valores
+
+                       <p>  <b>Sustentabilidade:</b> Compromisso com práticas que minimizam o impacto ambiental e promovem a conservação dos recursos naturais. </p>
+                        <p>    <b>Educação:</b>  Acreditamos no poder transformador do conhecimento e nos dedicamos a fornecer informações precisas e acessíveis. </p>
+                        <p>    <b>Comunidade:</b>  Valorizamos o trabalho em conjunto e acreditamos que a união faz a força na luta por um planeta mais saudável. </p>
+                        <p>    <b>Inovação:</b>  Estamos sempre buscando novas ideias e tecnologias que possam ajudar a resolver problemas ambientais de maneira eficiente e sustentável.  </p>
+                        <p>   <b>Transparência:</b>  Mantemos um diálogo aberto e honesto com nossa comunidade, garantindo que nossas ações e conteúdos sejam claros e confiáveis.  </p>
+                            
+                        <p> Estamos empolgados em tê-lo(a) conosco nessa jornada rumo a um futuro mais verde. Junte-se a nós, participe de nossos projetos, leia nossos artigos e seja parte da mudança! </p>
+                  
+                    </div>
+                </div>
+            </section>
+
+            <section id="galeria">
+                <h2>Galeria</h2>
+                <div class="conteudo">
+                    <div class="galeria-item">
+                        <a href="img/IMG/nova4 (3).jpg" data-fancybox="andebol">
+                            <div class="imagem">
+                                <img src="img/IMG/nova4 (3).jpg" alt="" />
+                            </div>
+                            <div class="titulo">
+                                <h4>Natureza 01</h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="galeria-item">
+                        <a href="img/IMG/nova4 (4).jpg" data-fancybox="andebol">
+                            <div class="imagem">
+                                <img src="img/IMG/nova4 (4).jpg" alt="" />
+                            </div>
+                            <div class="titulo">
+                                <h4>Natureza 02</h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="galeria-item">
+                        <a href="img/IMG/nova4 (5).jpg" data-fancybox="andebol">
+                            <div class="imagem">
+                                <img src="img/IMG/nova4 (5).jpg" alt="" />
+                            </div>
+                            <div class="titulo">
+                                <h4>Natureza 03</h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="galeria-item">
+                        <a href="img/IMG/nova4 (6).jpg" data-fancybox="andebol">
+                            <div class="imagem">
+                                <img src="img/IMG/nova4 (6).jpg" alt="" />
+                            </div>
+                            <div class="titulo">
+                                <h4>Natureza 04</h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="galeria-item">
+                        <a href="img/IMG/nova4 (7).jpg" data-fancybox="andebol">
+                            <div class="imagem">
+                                <img src="img/IMG/nova4 (7).jpg" alt="" />
+                            </div>
+                            <div class="titulo">
+                                <h4>Natureza 05</h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="galeria-item">
+                        <a href="img/IMG/nova4 (8).jpg" data-fancybox="andebol">
+                            <div class="imagem">
+                                <img src="img/IMG/nova4 (8).jpg" alt="" />
+                            </div>
+                            <div class="titulo">
+                                <h4>Natureza 06</h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="galeria-item">
+                        <a href="img/IMG/nova4 (9).jpg" data-fancybox="comida">
+                            <div class="imagem">
+                                <img src="img/IMG/nova4 (9).jpg" alt="" />
+                            </div>
+                            <div class="titulo">
+                                <h4>Natureza 07</h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="galeria-item">
+                        <a href="img/IMG/novas.jpg" data-fancybox="comida">
+                            <div class="imagem">
+                                <img src="img/IMG/novas.jpg" alt="" />
+                            </div>
+                            <div class="titulo">
+                                <h4>Natureza 08</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contactos">
+                <h2>Contatos</h2>
+                <div class="conteudo">
+                    <div>
+                        <h4>São Paulo | Capital</h4>
+                        <p>
+                            
+                            <br />Rua João Santos, 1012 <br />27120-010
+                            São Paulo - BR
+                        </p>
+
+                        <h4>Rio de Janeiro | Capital</h4>
+                        <p>Rua de São Pedro, 2135<br />17560-015 
+                            Rio de Janeiro  - BR </p>
+                    </div>
+                    <div>
+                        <div>
+                            <form class="contact-form" action="https://formsubmit.co/b69002a5d9ebb2cb863c63c5b8823fd8" method="POST" enctype="multipart/form-data">
+                                <div>
+                                    <label for="nome">Nome</label>
+                                    <input type="text" id="nome" name="nome" required>
+                                </div>
+                                <div>
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div>
+                                    <label for="message">Mensagem</label>
+                                    <input type="text" id="message" name="message" required>
+                                </div>
+                                <input type="hidden" name="_subject" value="New submission!">
+                                <button type="submit">Enviar</button>
+                            </form>
+                        </div>
+                        
+
+                       <!--  <form action="" >
+                            <div class="form-group">
+                                <label for="nome">Nome Completo: </label>
+                                <input type="text" id="nome" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail: </label>
+                                <input type="email" id="email" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone: </label>
+                                <input type="tel" id="telefone" />
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem: </label>
+                                <textarea id="mensagem" rows="6"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Submeter" />
+                            </div>
+                        </form>  -->
+                    </div>
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467690.1491831629!2d-46.92565638434773!3d-23.68206207218135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o%20Paulo%2C%20SP%2C%20Brasil!5e0!3m2!1spt-PT!2spt!4v1716936299695!5m2!1spt-PT!2spt" 
+                              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div>COPYRIGHT &copy; 2024</div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://fb.com" target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank">
+                            <i class="fa-brands fa-square-instagram"></i>
+                            Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank">
+                            <i class="fa-brands fa-square-youtube"></i>
+                            YouTube
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com" target="_blank">
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                            X-Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tiktok.com" target="_blank">
+                            <i class="fa-brands fa-tiktok"></i>
+                            TikTok
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                            Linkedin
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script>
+            Fancybox.bind("[data-fancybox]", {
+                // Your custom options
+            });
+        </script>        
+
+    </body>
+</html>
