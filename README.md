@@ -1,4 +1,4 @@
-# EcoComunitário
+# Blog Ecológico
 
 **EcoComunitário** é um site dedicado a promover a conexão com a natureza, incentivando práticas sustentáveis e o conhecimento sobre o meio ambiente.
 
